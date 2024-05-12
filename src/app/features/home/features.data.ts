@@ -36,11 +36,11 @@ export const features: Feature[] = [
     docs: 'https://taiga-ui.dev/getting-started',
   },
   {
-    name: 'Jasmine',
-    description: 'Behavior-driven development testing framework for JavaScript.',
+    name: 'Jest',
+    description: 'Testing framework commonly used in JavaScript projects.',
     link: null,
-    github: 'https://github.com/jasmine/jasmine-npm',
-    docs: 'https://jasmine.github.io/pages/getting_started.html',
+    github: 'https://github.com/jestjs/jest',
+    docs: 'https://jestjs.io/docs/getting-started',
   },
   {
     name: 'Tailwindcss',
