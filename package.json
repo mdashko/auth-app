@@ -39,6 +39,8 @@
     "@taiga-ui/core": "^2.28.0",
     "@taiga-ui/icons": "^2.28.0",
     "@taiga-ui/kit": "^2.28.0",
+    "express": "^4.19.2",
+    "path": "^0.12.7",
     "rxjs": "^7.4.0",
     "tailwindcss": "^3.0.7",
     "tslib": "^2.3.1",
