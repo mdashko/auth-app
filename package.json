@@ -14,8 +14,8 @@
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
     "release": "standard-version",
-    "analyze": "npm run build:prod -- --stats-json --named-chunks && webpack-bundle-analyzer ./dist/angular-authentication/stats.json"
-    "heroku-postbuild": "ng build - prod"
+    "analyze": "npm run build:prod -- --stats-json --named-chunks && webpack-bundle-analyzer ./dist/angular-authentication/stats.json",
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
