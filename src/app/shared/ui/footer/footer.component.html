@@ -1,0 +1,28 @@
+<footer class="aa--grid aa--grid-cols-1 aa--gap-4 md:aa--grid-cols-2">
+  <div class="aa--text-center md:aa--text-left">
+    <p class="aa--font-semibold">
+      © {{ now | date: 'YYYY' }} - Made with ❤️&nbsp; 
+    </p>
+  </div>
+
+  <div class="links aa--text-center md:aa--text-right">
+    <a
+      tuiLink
+      href="https://github.com/mdashko"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <fa-icon [icon]="['fab', 'github']"></fa-icon>
+      <span>Github</span>
+    </a>
+    <a
+      tuiLink
+      href="https://www.linkedin.com/in/marta-dashko/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <fa-icon [icon]="['fab', 'linkedin-in']"></fa-icon>
+      <span>LinkedIn</span>
+    </a>
+  </div>
+</footer>
