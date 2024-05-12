@@ -4,7 +4,7 @@
   "scripts": {
     "postinstall": "husky install",
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
@@ -15,6 +15,7 @@
     "format:write": "prettier --write .",
     "release": "standard-version",
     "analyze": "npm run build:prod -- --stats-json --named-chunks && webpack-bundle-analyzer ./dist/angular-authentication/stats.json"
+    "heroku-postbuild": "ng build - prod"
   },
   "private": true,
   "dependencies": {
